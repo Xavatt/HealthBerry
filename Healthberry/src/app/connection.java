@@ -5,7 +5,7 @@
  */
 package app;
 
-import com.mysql.jdbc.Connection;
+
 import java.awt.Color;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -15,18 +15,15 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author marqz
- */
+
 public class connection extends javax.swing.JFrame {
 
-    public Icon Rasp = new ImageIcon("C:\\Users\\marqz\\Documents\\NetBeansProjects\\Healthberry/rasp.png");
+    public Icon Rasp = new ImageIcon("C:\\UVM\\HealthBerry\\HealthBerry\\Healthberry/rasp.png");
     //public JLabel Icono=new JLabel(Rasp);
     public static final String url = "jdbc:mysql://localhost:3306/healthberry";
     public static final String USERNAME = "root";
     public static final String PASSWORD = "Rasengan32";
-    File f = new File("C:\\\\Users\\\\marqz\\\\Documents\\\\NetBeansProjects\\\\Base de datos/base.txt");
+    File f = new File("C:\\UVM\\HealthBerry\\HealthBerry\\Healthberry/base.txt");
     Scanner s;
     boolean repite=false;
 
@@ -152,17 +149,7 @@ public class connection extends javax.swing.JFrame {
         }
         
     }//GEN-LAST:event_logActionPerformed
-    public static Connection getConnection() {
-        Connection con = null;
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            con = (Connection) DriverManager.getConnection(url, USERNAME, PASSWORD);
-            //JOptionPane.showMessageDialog(null, "conexion exitosa");
-        } catch (Exception e) {
-            System.out.println("e");
-        }
-        return null;
-    }
+    
 
     /**
      * @param args the command line arguments
@@ -197,12 +184,7 @@ public class connection extends javax.swing.JFrame {
                 new connection().setVisible(true);
             }
         });
-        try {
-            Connection con = null;
-            con = getConnection();
-        } catch (Exception e) {
-            System.out.println("e");
-        }
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -21,7 +21,7 @@ import javax.swing.JOptionPane;
 public class register extends javax.swing.JFrame {
     FileWriter fichero = null;
     PrintWriter pw = null;
-    File f = new File("C:\\\\Users\\\\marqz\\\\Documents\\\\NetBeansProjects\\\\Base de datos/base.txt");
+    File f = new File("C:\\UVM\\HealthBerry\\HealthBerry\\Healthberry/base.txt");
     Scanner s;
     boolean repite=false;
     int i;

@@ -8,17 +8,14 @@ package app;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 
-/**
- *
- * @author marqz
- */
+
 public class main_info extends javax.swing.JFrame {
 
     /**
      * Creates new form main_info
      */
     public Icon agenda = new ImageIcon("agenda.png");
-    public Icon Rasp = new ImageIcon("C:\\Users\\marqz\\Documents\\NetBeansProjects\\Healthberry/rasp.png");
+    public Icon Rasp = new ImageIcon("C:C:\\UVM\\HealthBerry\\HealthBerry\\Healthberry/rasp.png");
 
     public main_info() {
         initComponents();

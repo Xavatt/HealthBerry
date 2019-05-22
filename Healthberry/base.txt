@@ -1,0 +1,4 @@
+1000,  Xavatt,  1234567890,  Xavier,  Guinto,  Rios,  xavierguinto3@outlook.es,  5532767643,  166,  22
+1001,  root,  root,  root,  root,  root,  root,  root,  145,  23
+1002,  Aztek,  1234567890,  Jorge,  Guinto,  Rios,  georgeguinto17@gmail.com,  5532767643,  167,  25
+1003,  AztekArcher,  1234567890,  Hola,  Mundo,  Y todos,  sdfghjkl,  sdfghjkl,  187,  24
